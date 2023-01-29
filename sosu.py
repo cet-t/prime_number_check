@@ -11,8 +11,8 @@ if type(num) is int:
     for i in range(2, num, 1):
         print(i)
 
-        is_prime_num = num % i == 0
-        if is_prime_num:
+        is_prime = num % i == 0
+        if is_prime:
             nums.append(False)
         else:
             nums.append(True)
