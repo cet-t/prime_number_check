@@ -7,6 +7,9 @@ nums: list[bool] = []
 if type(num) is int:
     print(f'input: {num}')
 
+    if num:
+        pass
+
     for i in range(2, num, 1):
         print(i)
 
