@@ -1,7 +1,8 @@
 ﻿import random as r
 
 # num = int(input())
-num = r.randint(0, 10000)
+# 10000個目の素数が104729
+num = r.randint(0, 104729)
 nums: list[bool] = []
 
 if type(num) is int:
