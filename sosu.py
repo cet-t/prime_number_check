@@ -3,7 +3,6 @@
 # num = int(input())
 num = r.randint(0, 50)
 nums: list[bool] = []
-nool: bool = True
 
 if type(num) is int:
     print(f'input: {num}')
@@ -17,7 +16,7 @@ if type(num) is int:
         else:
             nums.append(True)
 
-    for i in nums:
-        print(i)
+    # for i in nums:
+    #     print(i)
 
     print(f'{num} is sosu-?: {all(nums)}')
