@@ -1,5 +1,4 @@
 ﻿import random as r
-import tkinter as tk
 
 # num = int(input())
 # 10000個目の素数が104729
